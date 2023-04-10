@@ -8,6 +8,13 @@ h1 {
     text-align: center;
 }
 
+#date-updated {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #435e55;
+}
+
 #instructions {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
