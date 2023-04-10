@@ -1,0 +1,32 @@
+body {
+    background-color: #D3D0BC;
+}
+
+h1 {
+    font-family: NeoRetroFill, Helvetica, Arial, sans-serif;
+    color: #435e55;
+    text-align: center;
+}
+
+#instructions {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: red;
+    font-size: 20px;
+}
+
+th {
+    /*padding: 10px;*/
+    font-size: larger;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+td {
+    /*padding: 2px 10px;*/
+    font-size: large;
+    font-family: Arial;
+}
+
+.border {
+    border-top: gray 5px solid;
+}

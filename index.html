@@ -1,0 +1,515 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css" />
+    <link href="/assets/stylesheet.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<p id="instructions">Performers: Enter your name/your band's name in the search box to generate a list of your own events</p>
+<table class="table table-bordered table-hover table-condensed" id="dance-events">
+<thead><tr><th title="Field #1">Day</th>
+<th title="Field #2">Date</th>
+<th title="Field #3">Time</th>
+<th title="Field #4">Venue</th>
+<th title="Field #5">Event name</th>
+<th title="Field #6">Performers</th>
+</tr></thead>
+<tbody><tr>
+<td>Saturday</td>
+<td>19/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Family ceilidh</td>
+<td>Mike Courthold; (+ band tbc)</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>19/08/2023</td>
+<td>19:30-0:00</td>
+<td>Pavilion Hall</td>
+<td>Welcome social dance &amp; ceilidh</td>
+<td>Nicola Scott; Ali, Alan &amp; Marni; Brown Boots; Emma Wooders</td>
+</tr>
+<tr>
+<td>Saturday</td>
+<td>19/08/2023</td>
+<td>20:30-23:00</td>
+<td>Exhibition Hall</td>
+<td>Social dance</td>
+<td>Bernie Culkin; The Falconers</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>10:00-11:20</td>
+<td>Pavilion Hall</td>
+<td>Running Set dance workshop</td>
+<td>Mike Courthold</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>11:30-12:50</td>
+<td>Pavilion Hall</td>
+<td>American Dance workshop</td>
+<td>Nicola Scott; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>11:30-12:50</td>
+<td>The Met</td>
+<td>Playford for All dance workshop</td>
+<td>Bernie Culkin; Stray Chords</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>13:00-14:20</td>
+<td>The Met</td>
+<td>Irish Set dance workshop</td>
+<td>Jerry O&#39;Reilly</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>13:30-14:50</td>
+<td>Pavilion Hall</td>
+<td>Playford dance workshop</td>
+<td>Brooke Friendly; The Falconers</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>15:00-16:20</td>
+<td>Pavilion Hall</td>
+<td>Dance workshop</td>
+<td>Mike Courthold; The Falconers</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>16:00-17:20</td>
+<td>Scout Hut</td>
+<td>Contra dance workshop</td>
+<td>Rachel Shapiro Wallace; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Family ceilidh</td>
+<td>Alan, Ali &amp; Marni; David &amp; Joey Oliver</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>20:00-0:00</td>
+<td>Pavilion Hall</td>
+<td>Ceilidh</td>
+<td>Narthen; Jo Freya &amp; Fi Fraser; Banter; Martin Clarke</td>
+</tr>
+<tr>
+<td>Sunday</td>
+<td>20/08/2023</td>
+<td>20:30-23.00</td>
+<td>Exhibition Hall</td>
+<td>Social dance</td>
+<td>Brooke Friendly; Stray Chords</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>10:00-11:20</td>
+<td>Pavilion Hall</td>
+<td>Running Set dance workshop</td>
+<td>Mike Courthold</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>11:30-12:50</td>
+<td>Pavilion Hall</td>
+<td>American Dance workshop</td>
+<td>Nicola Scott; Matt Norman &amp; Gareth Kiddier</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>11:30-12:50</td>
+<td>The Met</td>
+<td>Playford for All dance workshop</td>
+<td>Bernie Culkin; Stray Chords</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>13:00-14:20</td>
+<td>The Met</td>
+<td>Irish Set dance workshop</td>
+<td>Jerry O&#39;Reilly</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>14:00-15:20</td>
+<td>Pavilion Hall</td>
+<td>Playford dance workshop</td>
+<td>Brooke Friendly; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>15:30-16:50</td>
+<td>Pavilion Hall</td>
+<td>Dance workshop</td>
+<td>Martyn Harvey; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>16:00-17:20</td>
+<td>Scout Hut</td>
+<td>Contra dance workshop</td>
+<td>Rachel Shapiro Wallace; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Family ceilidh</td>
+<td>Matt Norman &amp; Gareth Kiddier; Brooke Friendly</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>20:00-0:00</td>
+<td>Pavilion Hall</td>
+<td>Contra dance</td>
+<td>Nicola Scott; Ali, Alan &amp; Marni; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Monday</td>
+<td>21/08/2023</td>
+<td>20:30-23:00</td>
+<td>Exhibition Hall</td>
+<td>Social dance</td>
+<td>Mike Courthold; The Falconers</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>10:00-11:20</td>
+<td>Pavilion Hall</td>
+<td>Running Set dance workshop</td>
+<td>Mike Courthold</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>11:30-12:50</td>
+<td>Pavilion Hall</td>
+<td>American Dance workshop</td>
+<td>Nicola Scott; Matt Norman &amp; Gareth Kiddier</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>11:30-12:50</td>
+<td>The Met</td>
+<td>Playford for All dance workshop</td>
+<td>Bernie Culkin; Stray Chords</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>13:00-14:20</td>
+<td>The Met</td>
+<td>Irish Set dance workshop</td>
+<td>Jerry O&#39;Reilly</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>14:00-15:20</td>
+<td>Pavilion Hall</td>
+<td>Playford dance workshop</td>
+<td>Brooke Friendly; The Falconers</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>15:30-16:50</td>
+<td>Pavilion Hall</td>
+<td>Dance workshop</td>
+<td>Brooke Friendly; The Falconers</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>16:00-17:20</td>
+<td>Scout Hut</td>
+<td>Contra dance workshop</td>
+<td>Rachel Shapiro Wallace; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Family ceilidh</td>
+<td>Stray Chords; Martyn Harvey</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>20:00-00:30</td>
+<td>Pavilion Hall</td>
+<td>Northumbrian Dance then Ceilidh</td>
+<td>Hedgehog&#39;s Skin; Barry Evans; Steamchicken; John Brown</td>
+</tr>
+<tr>
+<td>Tuesday</td>
+<td>22/08/2023</td>
+<td>20:30-23:00</td>
+<td>Exhibition Hall</td>
+<td>Contra dance</td>
+<td>Geoff Cubitt; Matt Norman &amp; Gareth Kiddier</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>10:00-11:20</td>
+<td>Pavilion Hall</td>
+<td>Running Set dance workshop</td>
+<td>Mike Courthold</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>11:30-12:50</td>
+<td>Pavilion Hall</td>
+<td>American Dance workshop</td>
+<td>Geoff Cubitt; Matt Norman &amp; Gareth Kiddier</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>11:30-12:50</td>
+<td>The Met</td>
+<td>Playford for All dance workshop</td>
+<td>Bernie Culkin; The Falconers</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>13:00-14:20</td>
+<td>The Met</td>
+<td>Irish Set dance workshop</td>
+<td>Jerry O&#39;Reilly</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>14:00-15:20</td>
+<td>Pavilion Hall</td>
+<td>Playford dance workshop</td>
+<td>Brooke Friendly; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>15:30-16:50</td>
+<td>Pavilion Hall</td>
+<td>Dance workshop</td>
+<td>Martyn Harvey; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>16:00-17:20</td>
+<td>Scout Hut</td>
+<td>Contra dance workshop</td>
+<td>Rachel Shapiro Wallace; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Family ceilidh</td>
+<td>Peeping Tom; Mike Courthold</td>
+</tr>
+<tr>
+<td>Wednesday</td>
+<td>23/08/2023</td>
+<td>20:00-0:00</td>
+<td>Pavilion Hall</td>
+<td>Playford Ball then Late Night Playford</td>
+<td>Brooke Friendly; The Falconers; Bernie Culkin; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>10:00-11:20</td>
+<td>Pavilion Hall</td>
+<td>Running Set dance workshop</td>
+<td>Mike Courthold</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>11:30-12:50</td>
+<td>Pavilion Hall</td>
+<td>American Dance workshop</td>
+<td>Geoff Cubitt; Ali, Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>11:30-12:50</td>
+<td>The Met</td>
+<td>Playford for All dance workshop</td>
+<td>Bernie Culkin; The Falconers</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>13:00-14:20</td>
+<td>The Met</td>
+<td>Irish Set dance workshop</td>
+<td>Jerry O&#39;Reilly</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>14:00-15:20</td>
+<td>Pavilion Hall</td>
+<td>Playford dance workshop</td>
+<td>Brooke Friendly; Stray Chords</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>15:30-16:50</td>
+<td>Pavilion Hall</td>
+<td>Dance workshop: Dales Dances</td>
+<td>Pete Coe; (+ musicians tbc)</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>16:00-17:20</td>
+<td>Scout Hut</td>
+<td>Contra dance workshop</td>
+<td>Rachel Shapiro Wallace; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Themed family ceilidh</td>
+<td>Joey &amp; David Oliver and friends</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>20:00-00:30</td>
+<td>Pavilion Hall</td>
+<td>Themed Ceilidh</td>
+<td>Powerhouse; Lisa Heywood; Melrose Quintet; Martyn Harvey</td>
+</tr>
+<tr>
+<td>Thursday</td>
+<td>24/08/2023</td>
+<td>20:30-23:00</td>
+<td>Exhibition Hall</td>
+<td>Social dance</td>
+<td>Geoff Cubitt; Stray Chords</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>10:00-11:20</td>
+<td>Pavilion Hall</td>
+<td>Running Set dance workshop</td>
+<td>Mike Courthold; Stray Chords</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>11:30-12:50</td>
+<td>Pavilion Hall</td>
+<td>American Dance workshop</td>
+<td>Geoff Cubitt; Stray Chords</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>11:30-12:50</td>
+<td>The Met</td>
+<td>Playford for All dance workshop</td>
+<td>Bernie Culkin; Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>13:00-14:20</td>
+<td>The Met</td>
+<td>Irish Set dance workshop</td>
+<td>Jerry O&#39;Reilly</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>14:00-15:20</td>
+<td>Exhibition Hall</td>
+<td>Playford dance workshop</td>
+<td>Brooke Friendly; Alan &amp; Marni</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>18:00-20:00</td>
+<td>Exhibition Hall</td>
+<td>Family ceilidh</td>
+<td>Lisa Heywood; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>20:30-01:00</td>
+<td>Pavilion Hall</td>
+<td>Final social dance &amp; ceilidh</td>
+<td>Geoff Cubitt; Stray Chords; Peeping Tom; Ian Nichols</td>
+</tr>
+<tr>
+<td>Friday</td>
+<td>25/08/2023</td>
+<td>20:30-23:00</td>
+<td>Exhibition Hall</td>
+<td>Mostly American dance</td>
+<td>Mike Courthold; Edward Wallace &amp; Heather McAslan</td>
+</tr>
+</tbody></table>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+<script>
+$(function() {
+    $("#dance-events").DataTable({
+        "pageLength": 100,
+        "order": [ [1, 'asc'], [2, 'asc'] ]
+    });
+
+});
+</script>
+</body>
+</html>
