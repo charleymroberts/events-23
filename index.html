@@ -10,7 +10,7 @@
     <title>events-23</title>
 </head>
 <body>
-<p id="date-updated">Last updated: 10th April 2023</p>
+<p id="date-updated">Last updated: <span id="date"></span> </p>
 <p id="instructions">Performers: Enter your name/your band's name in the search box to generate a list of your own events</p>
 <table class="table table-bordered table-hover table-condensed" id="dance-events">
 <thead><tr><th title="Field #1">Day</th>
@@ -512,5 +512,8 @@ $(function() {
 
 });
 </script>
+  <script>
+    $("#date").text(new Date());
+  </script>
 </body>
 </html>
